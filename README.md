@@ -1,1 +1,1 @@
-# smart_aeroponics_using_random_forest
+# Smart Aeroponics using Random Forest
