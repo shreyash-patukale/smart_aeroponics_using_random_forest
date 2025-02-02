@@ -1,6 +1,25 @@
 # Smart Aeroponics using Random Forest
 This project integrates Automation and Machine learning to optimize plant growth in aeroponic systems. It uses sensors like pH, TDS, DHT22, and water temperature to collect real-time data. The desktop application enables real-time monitoring and visualization of the data. Random forest regression analyzes the collected data to predict pH and TDS levels, enabling precise nutrient adjustments for optimal plant growth.  This system has an inbuilt chatbot custom-trained for aeroponics, hydroponics, and aquaponics, along with a community website for user discussions and expert guidance.
 
+![Screenshot (503)](https://github.com/user-attachments/assets/13494c9b-d204-48df-b765-7cf1de593242)
+
+
+# Setup guide
+Follow these steps to get your own desktop application running locally.
+
+### 1. Clone the Repo
+```bash
+git clone https://github.com/shreyash-patukale/smart_aeroponics_using_random_forest.git
+```
+
+### 2. Setup ESP32
+Upload the code from edge.ino in your ESP32 using [Arduino IDE](https://www.arduino.cc/en/software). Make the circuit connections and connect ESP32 to your laptop/desktop. (Check your device manager and update your COM port in main.py)
+
+### 3. Open new terminal
+```bash
+python main.py
+```
+
 # Interface
 ## 1. Homepage
 Displays real-time values for pH, Total dissolved solids(TDS) in Parts per million(PPM), humidity, room temperature, and water temperature. Below these values, graphical representations are displayed for better visualization of trends.
