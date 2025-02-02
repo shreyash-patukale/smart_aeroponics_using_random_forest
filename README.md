@@ -12,10 +12,15 @@ Follow these steps to get your own desktop application running locally.
 git clone https://github.com/shreyash-patukale/smart_aeroponics_using_random_forest.git
 ```
 
-### 2. Setup ESP32
+### 2. Install requirments
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Setup ESP32
 Upload the code from edge.ino in your ESP32 using [Arduino IDE](https://www.arduino.cc/en/software). Make the circuit connections and connect ESP32 to your laptop/desktop. (Check your device manager and update your COM port in main.py)
 
-### 3. Open new terminal
+### 3. Run the application
 ```bash
 python main.py
 ```
